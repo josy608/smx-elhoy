@@ -3,27 +3,31 @@ header {
   padding-left:45%;
 }
 
-nav {
-  float: left;
+.nav {
+  background: orange;
+  width: 100%;
 }
-nav ul{
+.nav ul{
   margin: 0;
   padding: 0;
-  list-style: none;
-  font-family: sans-serif; 
+  overflow: hidden;
+   background-color: #f0f0f0;
+
 }
-  nav li {
-    display: inline-block;
-    margin: 0 30px ;
-    padding-top: 15px;
+  .nav ul li {
+      list-style: none;
+
   }
-  nav a {
-    color: blue;
+  .nav ul li a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    color: black;
+
   }
-  nav a:hover {
-    color: #000;
+  .nav ul li a:hover {
+    color: blue;
 
   }
