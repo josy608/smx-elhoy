@@ -29,5 +29,11 @@ header {
   }
   .nav ul li a:hover {
     color: blue;
+  }
+  input[type=search]{
+    float:right;
+    margin-right:10px;
 
   }
+
+#search-button { float: right; }
