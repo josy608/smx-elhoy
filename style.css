@@ -37,3 +37,26 @@ header {
   }
 
 #search-button { float: right; }
+
+.img-left{
+  float:left;
+  width: 200px;
+  padding-top: 2%;
+  margin: 5px;
+}
+.img-right{
+  float: right;
+  width: 200px;
+  padding-top: 2%;
+  margin-right: 250px
+}
+article{
+  float: left;
+  padding-left: 2%;
+  color: black;
+}
+#sidebar-right{
+    width: 25%;
+      float: right;
+}
+.clearfix { clear: both; }
