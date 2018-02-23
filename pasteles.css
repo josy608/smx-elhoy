@@ -1,1 +1,18 @@
 * { box-sizing: border-box;}
+header {
+  padding-left:45%;
+
+}
+.img-left{
+  float:left;
+  width: 200px;
+  padding-top: 2%;
+  margin: 5px;
+}
+p {
+  float: center;
+}
+ul{
+  float: left;
+  list-style: disc;
+}
