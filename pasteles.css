@@ -1,4 +1,7 @@
 * { box-sizing: border-box;}
+body{
+  background-image:url(imagenes/fondo.jpg);
+}
 header {
   padding-left:45%;
 
@@ -9,10 +12,14 @@ header {
   padding-top: 2%;
   margin: 5px;
 }
-p {
-  float: center;
-}
+
 ul{
   float: left;
-  list-style: disc;
+
 }
+.primero{
+  text-align:left;
+padding-left: 250px;
+
+}
+.clearfix { clear: both; }

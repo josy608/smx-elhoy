@@ -1,5 +1,22 @@
 * { box-sizing: border-box;}
+body{
+  background-image:url(imagenes/fondo2.jpg);
+}
 header {
   padding-left:45%;
 
 }
+.img-left{
+  float:left;
+  width: 200px;
+  padding-top: 2%;
+  margin: 5px;
+}
+ul{
+  float: left;
+}
+.primero{
+  text-align: left;
+  padding-left: 250px;
+}
+.clearfix { clear: both; }
