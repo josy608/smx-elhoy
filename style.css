@@ -51,13 +51,17 @@ header {
   padding-top: 2%;
   margin-right: 250px
 }
-article{
-  float: left;
-  padding-left: 2%;
-  color: black;
-}
+
 #sidebar-right{
     width: 25%;
       float: right;
 }
+
+#content-left{
+    width: 75%;
+      float: left;
+}
+
 .clearfix { clear: both; }
+
+#content { background-image: url("imagenes/fondo3.jpg");}
