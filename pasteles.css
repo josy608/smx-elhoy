@@ -1,6 +1,6 @@
 * { box-sizing: border-box;}
 body{
-  background-image:url(imagenes/fondo.jpg);
+  background-image:url(imagenes/fondo6.jpg);
 }
 header {
   padding-left:45%;
@@ -20,6 +20,13 @@ ul{
 .primero{
   text-align:left;
 padding-left: 250px;
+
+}
+.manzana{
+  text-align:left;
+  float: left;
+  margin-left: 20px;
+
 
 }
 .clearfix { clear: both; }

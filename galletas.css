@@ -19,4 +19,14 @@ ul{
   text-align: left;
   padding-left: 250px;
 }
+.galletas{
+  text-align:left;
+  float: left;
+  margin-left: 20px;
+}
+#column-right{
+  width: 33%;
+   float: right;
+}
+
 .clearfix { clear: both; }
