@@ -6,6 +6,16 @@ header {
   padding-left:45%;
 
 }
+#content{
+  width: 75%;
+
+}
+#sidebar-right{
+  width: 25%;
+  float: right;
+  border-left: 3px solid black;
+  border-color:pink;
+}
 .img-left{
   float:left;
   width: 200px;

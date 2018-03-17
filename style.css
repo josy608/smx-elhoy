@@ -12,7 +12,7 @@ header {
   margin: 0;
   padding: 0;
   overflow: hidden;
-   background-color: #f0f0f0;
+   background-color: #ffdfef;
 
 }
   .nav ul li {
@@ -34,7 +34,7 @@ header {
   input[type=search]{
     float:right;
     margin-right:10px;
-  
+
 
   }
 
@@ -49,27 +49,85 @@ header {
 .img-right{
   float: right;
   width: 200px;
-  padding-top: 2%;
-  margin-right: 250px
+  padding-top:8%;
+  margin-right: 335px
+}
+.img-top{
+  width: 200px;
+  margin-top: 60px;
+  margin-right: 700px;
+  margin-left: 5px;
+float:left;
 }
 
 #sidebar-right{
     width: 25%;
       float: right;
+
+
 }
 
 #content-left{
-    width: 75%;
+    width: 58%;
       float: left;
+ border-right: 3px solid pink;
+
+
 }
 
-.clearfix { clear: both; }
+
 
 #content { background-image: url("imagenes/fondo3.jpg");}
 
 #footer{
-  width: 25%;
-  background-image: url("imagenes/fondo5.jpeg");
+  width: 100%;
+  height:100px;
   float: left;
+  background-image: url("imagenes/fondo5.jpeg");
   margin-top: 30%;
+  border-top: 3px solid pink;
 }
+.fresa {
+
+  float: right;
+  margin-right:420px;
+  margin-top: -180px;
+
+}
+.fresa2{
+  float: left;
+  margin-left: 215px;
+  margin-top: -120px;
+
+}
+.galleta{
+  float: right;
+  margin-right:100px;
+  margin-top: -160px;
+}
+.galleta1{
+  float: right;
+  margin-right: 100px;
+  margin-top: -80px;
+
+}
+.galleta2{
+  float: right;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+.frame{
+  margin-top: 30px;
+  float: right;
+  margin-right: 250px;
+}
+.frame2{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.frame3{
+    margin-top: 20px;
+    margin-right: 250px;
+    float: right;
+}
+.clearfix { clear: both; }
